@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 
+
+*{
+  box-sizing: border-box;
+}
 body {
 background: #fff5eb;
 }
@@ -45,32 +51,12 @@ a:hover {
 .work-box {
   box-shadow: -2px -1px 20px rgba(255,255,255,0.5), 6px 6px 20px rgba(0,0,0,0.1);
 }
-
 .service-box:hover{
-  box-shadow: inset -6px -6px 10px rgba(255,255,255,0.5), inset 6px 6px 20px rgba(0,0,0,0.11);
+  box-shadow: inset -6px -6px 10px rgba(255,255,255,0.5), inset 6px 6px 20px rgba(0,0,0,0.12);
 }
 .box-shadow-a,
 .button:hover {
   box-shadow: 0 0 0 4px #cde1f8;
-}
-
-.display-5 {
-  font-size: 2.5rem;
-  font-weight: 300;
-  line-height: 1.1;
-}
-
-.display-6 {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.1;
-}
-
-.avatar {
-  width: 32px;
-  height: 32px;
-  margin-right: 4px;
-  overflow: hidden;
 }
 
 .bg-image {
@@ -79,7 +65,6 @@ a:hover {
   background-size: cover;
   background-position: center center;
 }
-
 
 .overlay-mf {
   background-color: rgba(255,255,255,0.4);
@@ -112,10 +97,6 @@ a:hover {
 }
 
 
-.sect-4 {
-  padding: 4rem 0;
-}
-
 .sect-pt4 {
   padding-top: 4rem;
 }
@@ -123,14 +104,6 @@ a:hover {
 .sect-mt4 {
   margin-top: 4rem;
 }
-
-
-.title-s {
-  font-weight: 600;
-  color: #1e1e1e;
-  font-size: 1.1rem;
-}
-
 /*--/ Title A /--*/
 
 .title-box {
@@ -141,10 +114,12 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
-}
+  font-family: 'Gabriela', serif;}
 
 .subtitle-a {
   color: #ffffff;
+  font-size: 25px;
+  font-family: 'Sacramento', cursive;
 }
 
 .line-mf {
@@ -163,9 +138,6 @@ a:hover {
   position: relative;
 }
 
-
-
-
 .title-left:before {
   content: '';
   position: absolute;
@@ -173,10 +145,6 @@ a:hover {
   background-color: #ff8400;
   width: 100px;
   bottom: -12px;
-}
-
-.box-pl2 {
-  padding-left: 2rem;
 }
 
 .box-shadow-full {
@@ -197,16 +165,14 @@ a:hover {
   padding: 3rem 1.25rem;
   position: relative;
   border-radius: 1%;
-  background-color: rgb(255,255,253,0.1);
+  background-color: rgba(196, 196, 196, 0.1);
   margin-bottom: 3rem;
   z-index: 2;
   backdrop-filter: blur(5px);
   box-shadow: 0px 25px 50px rgba(0,0,0,0.2);
-  border:1px solid rgba(255,255,255,0.5);
+  border:2px solid rgba(255,255,255,0.8);
   border-right: 1px solid rgba(255,255,255,0.2);
   border-bottom: 2px solid rgba(255,255,255,0.2);
-
-
 }
 
 /*------/ Socials /------*/
@@ -289,8 +255,8 @@ a:hover {
   width: 18px;
   height: 7px;
   margin: 5px 5px;
-  background: #b1c7df;
-  border: 0px solid #bfd4ec;
+  background: #e9f3ff;
+  border: 0.8px  #f1f8ff;
   display: block;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
@@ -301,34 +267,8 @@ a:hover {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #111010;
+  background-color: #ff9523;
   width: 25px;
-}
-
-/*--/ Scrolltop s /--*/
-
-.scrolltop-mf {
-  position: relative;
-  display: none;
-}
-
-.scrolltop-mf span {
-  z-index: 999;
-  position: fixed;
-  width: 42px;
-  height: 42px;
-  background-color: #dd8f3c;
-  opacity: .7;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  text-align: center;
-  color: rgb(235, 232, 232);
-  top: auto;
-  left: auto;
-  right: 30px;
-  bottom: 50px;
-  cursor: pointer;
-  border-radius: 50%;
 }
 
 /* Back to top button */
@@ -336,10 +276,10 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #EC9C48;
-  color: #fff;
-  width: 44px;
-  height: 44px;
+  background:rgba(0, 0, 0,0.8); 
+  color: #EC9C48;
+  width: 45px;
+  height: 45px;
   text-align: center;
   line-height: 1;
   font-size: 16px;
@@ -347,12 +287,12 @@ a:hover {
   right: 15px;
   bottom: 15px;
   transition: background 0.5s;
-  z-index: 11;
+  z-index: 12;
 }
 
 .back-to-top i {
   padding-top: 12px;
-  color: #fff;
+  color: #ff8401;
 }
 
 /* Prelaoder */
@@ -481,7 +421,6 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  /* background-color: #fff; */
   background-color: rgba(255,255,255,0.9);
 
   padding-top: 15px;
@@ -645,9 +584,7 @@ a:hover {
   display: none;
 }
 
-.intro-single {
-  height: 350px;
-}
+
 
 .intro-single .intro-content {
   margin-top: 30px;
@@ -657,24 +594,6 @@ a:hover {
   text-transform: uppercase;
   font-size: 3rem;
 }
-
-.intro-single .breadcrumb {
-  background-color: transparent;
-  color: #db9345;
-}
-
-.intro-single .breadcrumb .breadcrumb-item:before {
-  color: #cde1f8;
-}
-
-.intro-single .breadcrumb .breadcrumb-item.active {
-  color: #cde1f8;
-}
-
-.intro-single .breadcrumb a {
-  color: #fff;
-}
-
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
@@ -705,9 +624,7 @@ a:hover {
   background-color: #eb7b03;
 }
 
-/*======================================
-//--//-->   SERVICES
-======================================*/
+/*  SERVICES*/
 
 .service-box {
   background-color: rgba(230,214,250,0.2);
@@ -836,9 +753,7 @@ a:hover {
   font-size: 1.2rem;
 }
 
-/*======================================
-//--//-->   TESTIMONIALS
-======================================*/
+/* TESTIMONIALS*/
 
 .testimonials .owl-carousel .owl-item img {
   width: auto;
@@ -861,7 +776,7 @@ a:hover {
 }
 
 .testimonial-box .author {
-  color: rgb(254, 255, 252);
+  color: rgb(255, 254, 251);
   text-transform: uppercase;
   font-weight: 777;
   margin: 1rem 0;
@@ -881,9 +796,7 @@ a:hover {
   line-height: 1.6;
 }
 
-/*======================================
-//--//-->   BLOG
-======================================*/
+/* BLOG*/
 .card-blog{
   border-radius: 3%;
   background-color: rgba(255,255,255,0.2);
@@ -1030,10 +943,6 @@ a:hover {
   margin-left: 40px;
 }
 
-/*======================================
-//--//-->   CONTACT
-======================================*/
-
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
@@ -1042,9 +951,6 @@ a:hover {
   margin-top: 5rem;
 }
 
-/*======================================
-//--//-->   FOOTER
-======================================*/
 
 footer {
   text-align: center;
@@ -1064,9 +970,7 @@ footer .credits a {
   color: #fff;
 }
 
-/*======================================
-//--//-->   CONtaCT FORM
-======================================*/
+/*= CONtaCT FORM====*/
 
 #sendmessage {
   color: #EC9C48;
