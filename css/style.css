@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 
-
 *{
   box-sizing: border-box;
 }
@@ -96,7 +95,6 @@ a:hover {
   vertical-align: middle;
 }
 
-
 .sect-pt4 {
   padding-top: 4rem;
 }
@@ -104,8 +102,6 @@ a:hover {
 .sect-mt4 {
   margin-top: 4rem;
 }
-/*--/ Title A /--*/
-
 .title-box {
   margin-bottom: 4rem;
 }
@@ -175,8 +171,6 @@ a:hover {
   border-bottom: 2px solid rgba(255,255,255,0.2);
 }
 
-/*------/ Socials /------*/
-
 .socials {
   padding: 1.5rem 0;
 }
@@ -203,8 +197,6 @@ a:hover {
   transition: all 100ms ease;
 }
 
-/*------/ Ul resect /------*/
-
 .ul-resect,
 .socials ul,
 .list-ico,
@@ -225,8 +217,6 @@ a:hover {
   color:  black;
   margin-right: 10px;
 }
-
-/*------/ Ico Circle /------*/
 
 .ico-circle {
   height: 100px;
@@ -294,8 +284,6 @@ a:hover {
   padding-top: 12px;
   color: #ff8401;
 }
-
-/* Prelaoder */
 
 #preloader {
   position: fixed;
@@ -543,10 +531,6 @@ a:hover {
   opacity: 0.9;
 }
 
-/*======================================
-//--//-->   INTRO
-======================================*/
-
 .intro {
   height: 100vh;
   position: relative;
@@ -583,8 +567,6 @@ a:hover {
 .intro .text-slider-items {
   display: none;
 }
-
-
 
 .intro-single .intro-content {
   margin-top: 30px;
@@ -623,8 +605,6 @@ a:hover {
   height: .7rem;
   background-color: #eb7b03;
 }
-
-/*  SERVICES*/
 
 .service-box {
   background-color: rgba(230,214,250,0.2);
@@ -666,9 +646,6 @@ a:hover {
 .service-box .s-description {
   color: #ffffff;
 }
-
-
-
 .counter-box {
   color: #fff;
   text-align: center;
@@ -689,8 +666,6 @@ a:hover {
   font-size: 2rem;
   margin-bottom: 0;
 }
-
-
 
 .work-box {
   margin-bottom: 3rem;
@@ -753,8 +728,6 @@ a:hover {
   font-size: 1.2rem;
 }
 
-/* TESTIMONIALS*/
-
 .testimonials .owl-carousel .owl-item img {
   width: auto;
 }
@@ -796,7 +769,6 @@ a:hover {
   line-height: 1.6;
 }
 
-/* BLOG*/
 .card-blog{
   border-radius: 3%;
   background-color: rgba(255,255,255,0.2);
@@ -859,10 +831,6 @@ a:hover {
   display: inline-block;
 }
 
-/*======================================
-//--//-->   BLOG-SINGLE
-======================================*/
-
 .post-box,
 .form-comments,
 .box-comments,
@@ -903,8 +871,6 @@ a:hover {
   padding: 18px;
   font-style: italic;
 }
-
-/*------/ Comments /------*/
 
 .box-comments .list-comments li {
   padding-bottom: 40px;
