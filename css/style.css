@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
 
+
 *{
   box-sizing: border-box;
 }
@@ -43,16 +44,14 @@ a:hover {
 .color-text-a {
   color: #4e4e4e;
 }
+.my{
+  opacity: 0.8;
+}
 
-.box-shadow,
-.paralax-mf,
-.service-box,
-.work-box {
+.box-shadow{
   box-shadow: -2px -1px 20px rgba(255,255,255,0.5), 6px 6px 20px rgba(0,0,0,0.1);
 }
-.service-box:hover{
-  box-shadow: inset -6px -6px 10px rgba(255,255,255,0.5), inset 6px 6px 20px rgba(0,0,0,0.12);
-}
+
 .box-shadow-a,
 .button:hover {
   box-shadow: 0 0 0 4px #cde1f8;
@@ -66,7 +65,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: rgba(255,255,255,0.4);
+  background-color: rgba(180, 180, 180, 0.4);
 }
 
 .overlay-mf {
@@ -80,6 +79,7 @@ a:hover {
 }
 
 .paralax-mf {
+  box-shadow: -2px -1px 5px rgba(255,255,255,0.5), 5px 5px 8px rgba(0,0,0,0.1);
   position: relative;
   padding: 8rem 0;
 }
@@ -102,6 +102,7 @@ a:hover {
 .sect-mt4 {
   margin-top: 4rem;
 }
+
 .title-box {
   margin-bottom: 4rem;
 }
@@ -110,7 +111,9 @@ a:hover {
   font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'Gabriela', serif;}
+  font-family: 'Gabriela', serif;
+  color: #c34026;
+}
 
 .subtitle-a {
   color: #ffffff;
@@ -186,17 +189,16 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #ff8400;
+  box-shadow: 0 0 0 2.6px #ff8400;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
   background-color: #f17e03;
   color: #fff;
-  box-shadow: 0 0 0 3px #ffc07c;
+  box-shadow: 0 0 0 2px #1f1000;
   transition: all 100ms ease;
 }
-
 .ul-resect,
 .socials ul,
 .list-ico,
@@ -229,8 +231,6 @@ a:hover {
   box-shadow: 0 0 0 10px #db9243;
   display: block;
 }
-
-/*------/ Owl Carousel /------*/
 
 .owl-theme .owl-dots {
   text-align: center;
@@ -543,7 +543,7 @@ a:hover {
 }
 
 .intro .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.2);
   position: absolute;
   top: 0;
   left: 0px;
@@ -607,28 +607,35 @@ a:hover {
 }
 
 .service-box {
-  background-color: rgba(230,214,250,0.2);
-  padding: 2.5rem 1.3rem;
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 2.5rem 1.5rem;
   border-radius: 1rem;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
   border:1.5px solid rgba(255,255,255,0.5);
-  border-right: 1px solid rgba(255,255,255,0.1);
-  border-bottom: 2px solid rgba(255,255,255,0.2);
+  border-right: 1px solid rgba(155,155,155,0.1);
+  border-bottom: 2px solid rgba(27, 27, 27, 0.2);
   margin-bottom: 3rem;
   max-height: 380px;
+}
+.service-box
+{
+  box-shadow: -1px -1px 3px rgba(255,255,255,0.2), 2px 2px 10px rgba(0,0,0,0.1);
 
 }
+.service-box:hover{
+  box-shadow: inset -4px -5px 10px rgba(255,255,255,0.5), inset 8px 8px 20px rgba(0,0,0,0.12);
+} 
 
 .service-box:hover .ico-circle {
-  transition: all 400ms ease;
+  transition: all 333ms ease;
   color: #fff;
   background-color: #000c0c;
-  box-shadow: -6px -6px 60px rgba(255,255,255,1), 6px 6px 50px rgba(0, 0, 0, 0.1);
+  box-shadow: -3px -3px 33px rgba(255,255,255,1), 6px 6px 50px rgba(0, 0, 0, 0.1);
 }
 
 .service-box .service-ico {
   margin-bottom: 1rem;
-  color: #1e1e1e;
+  color: #868686;
 }
 
 .service-box .ico-circle {
@@ -641,11 +648,13 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   padding: .4rem 0;
+  color: #cde1f8;
 }
 
 .service-box .s-description {
   color: #ffffff;
 }
+
 .counter-box {
   color: #fff;
   text-align: center;
@@ -659,7 +668,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #cde1f8;
+  box-shadow: 0 0 0 10px #8fc3ff;
 }
 
 .counter-num .counter {
@@ -673,10 +682,11 @@ a:hover {
   backface-visibility: hidden;
   border-radius: 25px;
   background-color: rgb(248, 248, 248,0.6);
+  box-shadow: -1px -1px 3px rgba(255,255,255,0.3), 8px 6px 20px rgba(0,0,0,0.1);
+
 }
 .work-box:hover{
-  box-shadow: inset -6px -6px 10px rgba(255,255,255,0.5), inset 6px 6px 20px rgba(0,0,0,0.15);
-
+  box-shadow: inset -8px -9px 10px rgba(255, 251, 251, 0.5), inset 8px 8px 20px rgba(0,0,0,0.15);
 }
 
 .work-box:hover img {
@@ -768,18 +778,19 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
 }
-
 .card-blog{
   border-radius: 3%;
-  background-color: rgba(255,255,255,0.2);
+  background-color: rgba(204, 204, 204, 0.2);
   backdrop-filter: blur(5px);
   box-shadow: 0px 25px 50px rgba(0,0,0,0.2);
   border:1px solid rgba(255,255,255,0.5);
   border-right: 1px solid rgba(255,255,255,0.2);
   border-bottom: 2px solid rgba(255,255,255,0.2);
+  margin-bottom: 33px;
+  
 }
 .card-blog:hover{
-  box-shadow: inset -3px -6px 10px rgba(255,255,255,0.5), inset 6px 3px 20px rgba(0,0,0,0.15);
+  box-shadow: inset -3px -3px 10px rgba(255,255,255,0.5), inset 6px 3px 20px rgba(0,0,0,0.15);
 }
 .card-blog .card-body {
   position: relative;
@@ -872,43 +883,6 @@ a:hover {
   font-style: italic;
 }
 
-.box-comments .list-comments li {
-  padding-bottom: 40px;
-}
-
-.box-comments .list-comments .comment-avatar {
-  display: table-cell;
-  vertical-align: top;
-}
-
-.box-comments .list-comments .comment-avatar img {
-  width: 80px;
-  height: 80px;
-}
-
-.box-comments .list-comments .comment-author {
-  font-size: 1.3rem;
-}
-
-.box-comments .list-comments .comment-details {
-  display: table-cell;
-  vertical-align: top;
-  padding-left: 25px;
-}
-
-.box-comments .list-comments a {
-  color: #EC9C48;
-}
-
-.box-comments .list-comments span {
-  color: #1e1e1e;
-  font-style: italic;
-}
-
-.box-comments .comment-children {
-  margin-left: 40px;
-}
-
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
@@ -916,7 +890,6 @@ a:hover {
 .contact-mf {
   margin-top: 5rem;
 }
-
 
 footer {
   text-align: center;
@@ -929,14 +902,10 @@ footer .copyright {
 }
 
 footer .credits {
-  margin-bottom: 0;
+  margin-top: 50px;
 }
-
-footer .credits a {
-  color: #fff;
-}
-
-/*= CONtaCT FORM====*/
+.signature{
+width: 333px;}
 
 #sendmessage {
   color: #EC9C48;
@@ -1031,11 +1000,6 @@ footer .credits a {
     margin-top: 3rem;
     padding-left: 0rem;
   }
-
-  .card-blog {
-    margin-bottom: 3rem;
-  }
-
   .contact-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
